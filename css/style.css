@@ -1,0 +1,82 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Alata', sans-serif;
+    text-shadow: 0.1px 3px 3px white;
+}
+.container {
+   background:linear-gradient(30deg, rgb(38, 235, 192),rgb(28, 133, 238), rgb(74, 238, 33), rgb(54, 169, 231), purple);
+   width: 350px;
+   height: 500px;
+   border-radius: 40px;
+}
+.header img{
+   background: palegreen;
+   width: 350px;
+   height: 120px;
+   border-radius: 35px;
+  
+}
+.photoprofile img{
+   width: 100px;
+   height: 106px;
+   border-radius: 50px;
+   position: relative;
+   bottom: 50px;
+   left: 35%;
+}
+.tittle {
+   font-size: 23px;
+   /* text-align: center; */
+   display: flex;
+   position: relative;
+   bottom: 50px;
+   left: 32px;
+}
+.jobtittle1 {
+   font-size: 23px;
+   display: flex;
+   position: relative;
+   bottom: 65px;
+   left: 118px;
+}
+.jobtittle2 {
+   font-size: 23px;
+   display: flex;
+   position: relative;
+   bottom: 109px;
+   left: 96px;
+}
+.redes{
+   width: 64px;
+   height: 64px;
+}
+.instagram{
+   display: flex;
+   position: relative;
+   bottom: 120px;
+   left: 30px;
+   
+}
+.facebook{
+   display: flex;
+   position: relative;
+   bottom: 183px;
+   left: 244px;
+   z-index: 60;
+}
+.whatsapp{
+   display: flex;
+   position: relative;
+   bottom: 55px;
+   left: 139px;
+   z-index: 50;
+}
+.email{
+    display: flex;
+    position: relative;
+    bottom: 159px;
+    left: 124px;
+ }
+ 
